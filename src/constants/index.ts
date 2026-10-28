@@ -1,5 +1,30 @@
 export const workExperiences = [
   {
+    title: "Software Engineer (Working Student)",
+    company: "LEAG",
+    period: "July 2026 - Present",
+    location: "Cottbus, Germany",
+    description: "\
+        Built a DevOps governance tool for supply-chain security at a KRITIS-regulated energy provider, automating \
+        how dependencies across 5 ecosystems (Maven, npm, pip, NuGet, OCI) are scanned and published to \
+        air-gapped production.\
+    ",
+    technologies: [
+      "Python",
+      "FastAPI",
+      "Angular",
+      "TypeScript",
+      "PostgreSQL",
+      "Nexus",
+      "Docker",
+      "Podman",
+      "Syft",
+      "Grype",
+      "Bash",
+      "Git"
+    ],
+  },
+  {
     title: "Software Engineer",
     company: "Amadeus",
     period: "March 2024 - October 2025",
@@ -25,7 +50,7 @@ export const workExperiences = [
   {
     title: "Backend Developer",
     company: "TEA Networks",
-    period: "October 2023 - February 2024",
+    period: "October 2023 - January 2024",
     location: "Istanbul, Turkey",
     description:
       "\
@@ -130,6 +155,12 @@ export const skills = [
 
 
 export const certificates = [
+  {
+    title: "Microsoft Certified: Azure Fundamentals (AZ-900)",
+    issuer: "Microsoft",
+    date: 2024,
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/barisayyildiz/D2EBF7C3B135604D?sharingId"
+  },
   {
     title: "Certified SAFe 6 Practitioner",
     issuer: "Scaled Agile",
